@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+:root{
+
+    --header:#1E172F;
+    --letterAtenudo:#8640D5; 
+    --letterAtenud2:#047ED5; 
+    --fontProduct: #2E2550;
+    --fuenteLila: #F41486;
+    --fondoFunction: #F1F2F7;
+    --fondosPlanesPrice: #1E172F;
+    --fontDegradado: #EB66AB;
+    --fontDegradado: #F41486;
+    --margin: "10px"
+
+
+}
+header{
+
+    background: var(--header);
+}
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.items-header ul li{
+    color: #fff;
+    display: flex;
+    list-style: none;
+}
+.items-header ul{
+    color: #fff;
+    display: flex;
+}
